@@ -120,7 +120,6 @@
     background-color: #346E84;
     padding: 50px;
     justify-content: center;
-    /* margin: 0 40px; */
 }
 
 .card-image{
@@ -134,7 +133,6 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
-    /* border-radius: 50px; */
 }
 
 .name{
@@ -142,10 +140,92 @@
     font-size: xx-large;
     text-align: center;
     font-weight: normal;
-    
 }
 
 .card-content2{
     display: flex;
     margin
+}
+
+/* FEATURES */
+
+.features{
+    margin: 30px;
+    
+}
+.featured1{
+    text-align: center;
+    color: #346E84;
+    font-size: 20px;
+    display: grid;
+    place-items: center center;
+    margin: 25px;
+ 
+}
+
+.cards{
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(400px 1fr));
+    padding: 10px;
+    grid-gap: 40px;
+    text-align: center;
+
+
+}
+
+.carded{
+    border-radius: 20px;
+    background-color: white ;
+    box-shadow: 0 0 30 grey;
+    border: 1px solid #346E84;
+    padding: 30px;
+}
+
+.cardcard1{
+    border-radius: 20px;
+    background-color: white ;
+    box-shadow: 0 0 30 grey;
+    border: 1px solid #346E84;
+}
+
+/* .container2{
+    text-align: center;
+
+    
+} */
+
+.icon1{
+    width: 50px;
+    display: block;
+    border-radius: 20px 20px 0 0 ;
+    /* text-align: center; */
+
+}
+
+.details{
+    margin-top: 30px;
+}
+
+.para1{
+    margin: 20px 0px 20px 0px;
+}
+
+.btn3{
+    cursor: pointer;
+    width: 100px;
+    border: 2px solid #346E84;
+    color: #fff;
+    background-color: #346E84;
+    border-radius: 5px;
+    outline: none;
+    transition: ease-out 0.5s;
+    position: relative;
+    z-index: 1;
+    padding: 8px;
+}
+
+.btn3:hover{
+    color: #346E84;
+    box-shadow: inset 100px 0 0 0 white;
+    cursor: pointer;
 }
