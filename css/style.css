@@ -326,7 +326,7 @@
     max-width: 900px;
     width: 100%;
     padding: 50px 0;
-    row-gap: 30px;
+    overflow: hidden;
 }
 
 .testimonials .testi-image{
@@ -337,7 +337,7 @@
 }
 
 .container3{
-    height: 70vh;
+    height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -358,6 +358,10 @@
     font-size: 14px;
     font-weight: 500;
     color: black;
+}
+
+.testi-para{
+    width: 90%;
 }
 
 
@@ -382,4 +386,15 @@
 .testi-details .job{
     font-size: 14px;
     font-weight: 400;
+}
+
+.testi-heading{
+    
+    background-color: #E3F2FC;
+}
+
+.testi-main{
+    text-align: center;
+    padding: 20px;
+    
 }
