@@ -317,3 +317,69 @@
 .card-footer-btn{
     margin-right: 50px;
 }
+
+
+/* TESTIMONIALS */
+
+.testimonials{
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    padding: 50px 0;
+    row-gap: 30px;
+}
+
+.testimonials .testi-image{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.container3{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E3F2FC;
+}
+
+.testimonials .testimonial-slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.testimonial-slider .testi-para {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+}
+
+
+.testimonial-slider .quote-icon{
+    font-size: 30px;
+    color: #346E84;
+
+}
+
+.testimonial-slider .testi-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testi-details .test-name{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.testi-details .job{
+    font-size: 14px;
+    font-weight: 400;
+}
