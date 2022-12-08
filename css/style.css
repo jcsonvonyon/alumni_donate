@@ -176,7 +176,6 @@ section{
 
 .image-content{
     display: flex;
-    margin: 0 0px 0px 0px;
     justify-content: center;
 }
 
@@ -186,6 +185,7 @@ section{
     font-size: xx-large;
     text-align: center;
     font-weight: normal;
+    padding-top: 30px;
 }
 
 .swiper-navBtn{
