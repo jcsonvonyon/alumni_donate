@@ -202,7 +202,8 @@ section{
 }
 
 .cards{
-    width: 100%;
+    width: 70%;
+    margin: 0 200px;
     
     justify-content: center;
 }
@@ -251,6 +252,7 @@ section{
     border: 1px solid #346E84;
     padding: 30px;
     margin: 0 0 40px 0;
+    width: 500px;
 
 }
 
