@@ -107,7 +107,7 @@
 
 .heading{
     width: 100%;
-    /* background: #346E84; */
+    background: #346E84;
     padding: 100px;
     background-image: url(/img/header-banner.png);
     position: relative;
