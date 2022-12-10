@@ -169,6 +169,10 @@ section{
     margin-top: 30px;
 }
 
+
+
+
+
 .card-image .card-img{
     width: 250px;
     object-fit: cover;
@@ -197,16 +201,16 @@ section{
     color: goldenrod !important;
 }
 
-/* @media screen and (max-width: 768px) {
-    .card-image{
-        width: 200px;
-    }
-} */
+.cards{
+    width: 100%;
+    
+    justify-content: center;
+}
 
 /* FEATURES */
 
 .features{
-    margin: 30px;
+    margin: 0px;
     
 }
 .featured1{
@@ -225,9 +229,20 @@ section{
     padding: 10px;
     grid-gap: 40px;
     text-align: center;
+}
 
+.featured-second{
+    display: flex;
+    flex-direction: column;
 
 }
+
+.featured-first{
+    display: flex;
+    flex-direction: column;
+
+}
+
 
 .carded{
     border-radius: 20px;
@@ -235,6 +250,8 @@ section{
     box-shadow: 0 0 30 grey;
     border: 1px solid #346E84;
     padding: 30px;
+    margin: 0 0 40px 0;
+
 }
 
 .cardcard1{
@@ -252,9 +269,9 @@ section{
 
 .icon1{
     width: 50px;
-    display: block;
+    /* display: block; */
     border-radius: 20px 20px 0 0 ;
-    /* text-align: center; */
+    
 
 }
 
