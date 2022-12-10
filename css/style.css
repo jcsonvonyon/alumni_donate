@@ -520,10 +520,6 @@ section{
     flex-direction: row;
 }
 
-/* .footer-three{
-    display: flex;
-} */
-
 .footer-text{
     font-size: small;
     padding-bottom: 20px;
@@ -567,5 +563,11 @@ width: 25%;
 
 .final-footer{
     background-color: #346E84;
-    height: 10px;
+    height: 50px;
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+    font-weight: 100;
+    color: #E3F2FC;
+   
 }
