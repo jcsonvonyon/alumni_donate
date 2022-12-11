@@ -7,11 +7,26 @@
 
 div h2 {
     font-size: 30px;
-    margin: 30px 0;
+    margin: 30px 0 10px 15px;
 }
+
+.logo-left{
+    background-color: azure;
+    padding: 20px;
+    border: 1px solid #f1f1f1;
+}
+
+.text-left{
+    text-align: center;
+    color: #ffffff;
+    
+}
+
 
 .container-2 {
     width: 100%;
+    flex: 3;
+    padding: 30px;
 }
 input {
     width: 70%;
@@ -20,6 +35,7 @@ input {
     background-color: #f1f1f1;
     border: 1px solid black;
     border-radius: 5px;
+   
 }
 
 .btn {
@@ -46,8 +62,6 @@ input {
 }
 
 
-
-
 main {
     width: 100%;
     height: 100vh;
@@ -55,17 +69,9 @@ main {
 }
 
 .Container-1 {
-    /* width: 30%; */
     flex: 1;
     background-color: #346e84;
-    /* background-color: #4A90E2; */
-    padding: 30px;
-    /* position: relative; */
 }
 
-.container-2 {
-    flex: 3;
-    /* width: 70%; */
-    padding: 30px;
- 
-}
+
+
