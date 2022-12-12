@@ -30,6 +30,10 @@
 
 }
 
+.menu-items a:hover{
+    color: #346E84;
+}
+
 .button{
     display: flex;
     flex-direction: row;
