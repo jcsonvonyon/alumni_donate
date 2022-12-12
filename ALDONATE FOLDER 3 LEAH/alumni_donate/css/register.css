@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+.row:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+/* NAVIGATION */
+.navigation {
+  background-color: #eeeeee;
+  height: 70px;
+  width: 100%;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo {
+  width: 45px;
+  margin-right: 10px;
+}
+
+.nav-text1 {
+  font-size: large;
+  font-weight: 300;
+  /* text-align: center; */
+}
+
+.menu-items a {
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0px 20px;
+  color: black;
+  font-size: medium;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  margin-left: 200px;
+  width: 25%;
+}
+
+.btn1 {
+  border: 2px solid #346e84;
+  color: #346e84;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: inset 0 0 0 0 #346e84;
+  transition: ease-out 0.5s;
+  outline: #346e84;
+  padding: 8px;
+  cursor: pointer;
+  width: 100px;
+}
+
+.btn1:hover {
+  color: white;
+  box-shadow: inset 100px 0 0 0 #346e84;
+  cursor: pointer;
+  transition: 150ms all ease-in-out;
+  cursor: pointer;
+}
+
+.btn2 {
+  cursor: pointer;
+  width: 100px;
+  border: 2px solid #346e84;
+  color: #fff;
+  background-color: #346e84;
+  border-radius: 5px;
+  outline: none;
+  transition: ease-out 0.5s;
+  position: relative;
+  z-index: 1;
+  padding: 8px;
+}
+
+.btn2:hover {
+  color: #346e84;
+  box-shadow: inset 100px 0 0 0 white;
+  transition: 150ms all ease-in-out;
+  cursor: pointer;
+}
+
+/* HEADER */
+
+.heading {
+  width: 100%;
+  height: 450px;
+  background: #346e84;
+  padding: 100px;
+  background-image: url(/img/icons/admin/header-banner.png);
+  position: relative;
+}
+
+.btn4 {
+  border: 2px solid black;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  box-shadow: inset 0 0 0 0 #346e84;
+  transition: ease-out 0.5s;
+  outline: #346e84;
+  padding: 8px;
+  cursor: pointer;
+  width: 150px;
+  margin: 50px 0px 0px 0px;
+}
+
+.btn4:hover {
+  color: black;
+  box-shadow: inset 150px 0 0 0 white;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-size: 45px;
+  padding-top: 35px;
+}
+.welcome-text {
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+h3 {
+  text-align: center;
+  color: white;
+}
+h6 {
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+}
+
+/* form css starts here */
+.container {
+  padding: 50px;
+  background-color: #346e84;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #fff;
+}
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: #346e84;
+  outline: none;
+}
+div {
+  padding: 10px 0;
+}
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.registerbtn {
+  background-color: #346e84;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.registerbtn:hover {
+  opacity: 1;
+}
+.registerbtn:hover {
+  cursor: pointer;
+  transition: 150ms all ease-in-out;
+  opacity: 1;
+  background-color: #346e84;
+  color: white;
+}
+
+/* For mobile phones: */
+
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For tablets: */
+  .col-m-1 {
+    width: 8.33%;
+  }
+  .col-m-2 {
+    width: 16.66%;
+  }
+  .col-m-3 {
+    width: 25%;
+  }
+  .col-m-4 {
+    width: 33.33%;
+  }
+  .col-m-5 {
+    width: 41.66%;
+  }
+  .col-m-6 {
+    width: 50%;
+  }
+  .col-m-7 {
+    width: 58.33%;
+  }
+  .col-m-8 {
+    width: 66.66%;
+  }
+  .col-m-9 {
+    width: 75%;
+  }
+  .col-m-10 {
+    width: 83.33%;
+  }
+  .col-m-11 {
+    width: 91.66%;
+  }
+  .col-m-12 {
+    width: 100%;
+  }
+}
+
+/* FOOTER
+
+.footer {
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+} */
+
+/* .footer-three{
+    display: flex;
+} */
+/* 
+.footer-text {
+  font-size: small;
+  padding-bottom: 20px;
+}
+
+.footer-text2 {
+  font-size: medium;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 20px;
+  width: 80%;
+}
+
+.footer-text3 {
+  width: 100%;
+}
+
+.social {
+  display: flex;
+}
+
+.social .footer-img {
+  height: 30px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.footer-one {
+  width: 50%;
+}
+
+.footer-two {
+  width: 25%;
+}
+
+.footer-quick {
+  padding: 7px;
+  text-decoration: none;
+}
+
+.final-footer {
+  background-color: #346e84;
+  height: 10px;
+} */
