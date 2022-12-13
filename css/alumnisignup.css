@@ -20,7 +20,7 @@
     width: 50%;
     padding: 280px 0 0 0;
     margin: 0px 0 0 -30px;
-    background-image: url(/img/home/footer-sign-up1.png);
+    background-image: url(/img/landingpage/footer-sign-up1.png);
     background-repeat: no-repeat;
     background-position: 0 100% ;
     background-size: 100%;
@@ -133,7 +133,7 @@ body{
 .sign-img{
     width: 50%;
     padding: 100px;
-    background-image: url(/img/home/footer-sign-up.png);
+    background-image: url(/img/landingpage/footer-sign-up.png);
     background-repeat: no-repeat;
     background-position: 100% 0;
     background-size: 100%;

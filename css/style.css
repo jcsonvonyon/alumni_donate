@@ -417,7 +417,7 @@ section{
 }
 
 .container3{
-    height: 100vh;
+    height: 550px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -499,14 +499,19 @@ section{
 .section2{
     background-color: #346E84;
     display: flex;
-    padding: 60px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    /* padding: 0px; */
     width: 100%;
 }
 
 .action-text{
-    margin: 0px 0px 0px 100px;
     color: #fff;
+    
 }
+
+
 
 
 
@@ -522,8 +527,7 @@ section{
     padding: 8px;
     cursor: pointer;
     width: 150px;
-    /* margin-right: 20px; */
-    margin: 0px 20px 0px 300px;
+    margin-top: 30px;
 
 }
 
