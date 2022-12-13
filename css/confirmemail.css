@@ -1,0 +1,109 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap"); */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+header {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+.main-container img {
+    padding: 20px;
+}
+
+.main-container h2 {
+    color: #142b2f;
+
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #191919;
+}
+
+nav ul {
+    width: 500px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+main {
+    width: 100%;
+    height: 90vh;
+    background-image: url(../images29-35/backimage.jpg);
+    background-size: 30%;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.super-container h2 {
+    width: 90%;
+    text-align: center;
+    color: #ffffff;
+    margin: 15px;
+}
+
+.super-container p {
+    text-align: center;
+    color: #ffffff;
+
+}
+
+.super-container .btn {
+    width: 60%;
+    height: 50px;
+    background-color: #99E4F2;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.super-container {
+    background-color: #355561;
+    width: 500px;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
