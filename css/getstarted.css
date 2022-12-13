@@ -57,7 +57,7 @@ h2 {
 }
 
 form {
-  background-color: #1f424f;
+  background-color: #346E84;
   max-width: 50vw;
   min-width: 330px;
   height: fit-content;
@@ -86,7 +86,7 @@ select {
 
 input:focus,
 select:focus {
-  border-color: #1f424f;
+  border-color: #346E84;
 }
 
 ::placeholder {
@@ -109,12 +109,21 @@ input[type='submit'] {
   border: 2.4px solid #191919;
   border-radius: 8px;
   margin: 15px auto 20px;
+  background-color: #000;
+  color: #fff;
+  box-shadow: inset 0 0 0 0 white;
+    transition: ease-out 0.5s;
+    cursor: pointer;
+
+
 }
 
 input[type='submit']:hover {
-  background-color: #1f424f;
-  color: #fff;
-  border: 2.4px solid #fff;
+  background-color: white;
+  color: #000;
+  border: 2.4px solid #000;
+  box-shadow: inset 150px 0 0 0 white;
+
 }
 
 .links {
@@ -123,21 +132,24 @@ input[type='submit']:hover {
 }
 
 a {
-  background-color: #1f424f;
-  color: #fff;
+  background-color: #99E4F2;
+  color: #000;
   font-size: 14px;
   font-weight: 500;
-  border: 2.4px solid #fff;
+  border: 2.4px solid #99E4F2;
   border-radius: 5px;
   width: 120px;
   padding: 7px 40px;
   text-decoration: none;
   margin: auto;
+  box-shadow: inset 0 0 0 0 #346E84;
+    transition: ease-out 0.5s;
 }
 
 a:hover {
   background-color: #fff;
-  color: #1d1b1b;
+  color: #346E84;
+  box-shadow: inset 150px 0 0 0 white;
 }
 
 .exit {
@@ -169,7 +181,7 @@ input[type='password'] {
 
 .login {
   font-size: 20px;
-  color: #1f424f;
+  color: #346E84;
   width: 180px !important;
   padding: 16px 24px !important;
 }
