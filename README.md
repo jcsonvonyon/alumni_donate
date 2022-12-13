@@ -33,7 +33,7 @@
 
 ## Links
 
-* [Live URL](https://jcsonvonyon.github.io/alumni_donate/)
+* [Live URL](https://zuri-training.github.io/TeamDugong/index.html)
 * [Project documentation](https://docs.google.com/document/d/1H0xgrJS83RoIuuPVnqT9xIayKl8COnW2OTyQIoJ5L_E/edit)
 * [Figma](https://www.figma.com/file/K0GZgYMMNfoOAiZRn1J9oS/TEAM-DUGONG?node-id=4%3A512&t=sAhdzWAGRveb8oGr-1)
 * [Mood Boards](https://www.canva.com/design/DAFTt7de70g/-cB7EJ_F_TkTVjRFIMNxoA/view?utm_content=DAFTt7de70g&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
