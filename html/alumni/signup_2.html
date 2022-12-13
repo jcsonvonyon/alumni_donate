@@ -15,31 +15,40 @@
     </div>
     <form action="">
       <label for="company-name">Company Name<input type="text" /></label
-      ><label for="job title">Job Title<input type="text" /></label
+      ><label for="job title">Job Title<input type="text" required /></label
       ><label
         >Mailing Address<input
           type="email"
           style="margin-bottom: 12px"
           placeholder="Email Address"
+          required
         /><input
           type="number"
           name="phone"
           style="margin-bottom: 12px"
           id=""
           placeholder="Phone Number"
+          required
         /><input
           type="text"
           name="street name"
           style="margin-bottom: 12px"
           placeholder="Street Name"
+          required
         />
         <input
           type="text"
           style="margin-bottom: 12px"
           name="city"
           placeholder="City/State"
+          required
         />
-        <select id="country" style="margin-bottom: 12px" name="country">
+        <select
+          id="country"
+          style="margin-bottom: 12px"
+          name="country"
+          required
+        >
           <option>Country</option>
           <option value="Afghanistan">Afghanistan</option>
           <option value="Aland Islands">Åland Islands</option>
@@ -224,7 +233,7 @@
           <option value="New Zealand">New Zealand</option>
           <option value="Nicaragua">Nicaragua</option>
           <option value="Niger">Niger</option>
-          <option value="Nigeria">Nigeria</option>
+          <option value="Nigeria" selected>Nigeria</option>
           <option value="Niue">Niue</option>
           <option value="Norfolk Island">Norfolk Island</option>
           <option value="Northern Mariana Islands">
@@ -333,6 +342,7 @@
           type="text"
           style="margin-bottom: 12px"
           placeholder="Postal Code"
+          required
         />
       </label>
 
