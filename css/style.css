@@ -30,13 +30,17 @@
 
 }
 
+.menu-items a:hover{
+    color: #346E84;
+}
+
 .button{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center ;
     text-align: center;
-    margin-left: 330px;
+    margin-left: 450px;
   
     
 }
@@ -169,6 +173,10 @@ section{
     margin-top: 30px;
 }
 
+
+
+
+
 .card-image .card-img{
     width: 250px;
     object-fit: cover;
@@ -197,16 +205,17 @@ section{
     color: goldenrod !important;
 }
 
-/* @media screen and (max-width: 768px) {
-    .card-image{
-        width: 200px;
-    }
-} */
+.cards{
+    width: 70%;
+    margin: 0 200px;
+    
+    justify-content: center;
+}
 
 /* FEATURES */
 
 .features{
-    margin: 30px;
+    margin: 0px;
     
 }
 .featured1{
@@ -225,9 +234,20 @@ section{
     padding: 10px;
     grid-gap: 40px;
     text-align: center;
+}
 
+.featured-second{
+    display: flex;
+    flex-direction: column;
 
 }
+
+.featured-first{
+    display: flex;
+    flex-direction: column;
+
+}
+
 
 .carded{
     border-radius: 20px;
@@ -235,6 +255,9 @@ section{
     box-shadow: 0 0 30 grey;
     border: 1px solid #346E84;
     padding: 30px;
+    margin: 0 0 40px 0;
+    width: 500px;
+
 }
 
 .cardcard1{
@@ -252,9 +275,9 @@ section{
 
 .icon1{
     width: 50px;
-    display: block;
+    /* display: block; */
     border-radius: 20px 20px 0 0 ;
-    /* text-align: center; */
+    
 
 }
 
@@ -394,7 +417,7 @@ section{
 }
 
 .container3{
-    height: 100vh;
+    height: 550px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -476,14 +499,19 @@ section{
 .section2{
     background-color: #346E84;
     display: flex;
-    padding: 60px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    /* padding: 0px; */
     width: 100%;
 }
 
 .action-text{
-    margin: 0px 0px 0px 100px;
     color: #fff;
+    
 }
+
+
 
 
 
@@ -499,8 +527,7 @@ section{
     padding: 8px;
     cursor: pointer;
     width: 150px;
-    /* margin-right: 20px; */
-    margin: 0px 20px 0px 300px;
+    margin-top: 30px;
 
 }
 
@@ -519,10 +546,6 @@ section{
     display: flex;
     flex-direction: row;
 }
-
-/* .footer-three{
-    display: flex;
-} */
 
 .footer-text{
     font-size: small;
@@ -567,5 +590,11 @@ width: 25%;
 
 .final-footer{
     background-color: #346E84;
-    height: 10px;
+    height: 50px;
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+    font-weight: 100;
+    color: #E3F2FC;
+   
 }

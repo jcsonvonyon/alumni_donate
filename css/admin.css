@@ -107,10 +107,9 @@
 
 .heading{
     width: 100%;
-    height: 450px;
     background: #346E84;
     padding: 100px;
-    background-image: url(/img/icons/admin/header-banner.png);
+    background-image: url(../img/banner.png);
     position: relative;
 
 }
@@ -227,17 +226,16 @@ width: 10%;
 
 .projects-card{
     display: flex;
-    /* padding: 20px; */
     margin: 30px 150px;
-    /* padding-bottom: 20px; */
 
 }
 
-.projects-left h3{
+.projects-left h4{
     margin: 20px ;
     text-decoration: none;
     margin-bottom: 40px;
     text-decoration: underline;
+    font-size: large;
 
 }
 
@@ -342,11 +340,121 @@ width: 10%;
 }
 
 
+/* FOOTER */
+
+.footer{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: #99E4F2;
+}
 
 
 
+.footer-text{
+    font-size: small;
+    padding-bottom: 20px;
+}
 
 
 
+.footer-text2{
+    font-size: medium;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 20px;
+    width: 80%;
+}
+
+.footer-text3{
+    width: 100%;
+}
+
+.social{
+    display: flex;
+}
+
+.social .footer-img{
+    height: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.footer-one{
+    width: 50%;
+
+}
+
+.fotty{
+    padding-left: 200px;
+
+}
+
+
+.footer-two{
+    width: 25%;
+}
+
+.footer-quick{
+    padding: 7px;
+    text-decoration: none;
+}
+
+
+.final-footer{
+    background-color: #346E84;
+    height: 50px;
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+    font-weight: 100;
+    color: #E3F2FC;
+   
+}
+
+
+
+.footer1{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: #E0F7FB;
+}
+
+.sussex{
+    line-height: 30px;
+    /* padding-right: 30px; */
+
+}
+
+
+.btn3{
+    width: 600px;
+    padding: 15px;
+    background-color: black;
+    color: #E0F7FB;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #346E84;
+    margin: 50px;
+    box-shadow: inset 0 0 0 0 346E84;
+    transition: ease-out 0.5s;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.btn3:hover{
+    width: 600px;
+    padding: 15px;
+    background-color: #346E84;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid black;
+    box-shadow: inset 600px 0 0 0 #346E84;
+
+}
 
 
