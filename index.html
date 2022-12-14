@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alumni Donate</title>
-    <link rel="icon" href="img/icon.png" type="image/x-icon">
+    <link rel="icon" href="img/icons/icon.png" type="image/x-icon">
 
     <link rel="stylesheet" href="css/style.css">
 
@@ -25,31 +25,32 @@
 <body>
 
     <!-- NAVIGATION STARTS -->
-
-    <div class="navbar" class="col-3 col-m-3">
+    <div class="navbar">
         <div class="img1">
             <img src="img/logo.png" alt="" class="img11">
 
         </div>
         <div class="menu-items">
-            <a href="">Home</a>
-            <a href="admin.html">About Us</a>
-            <a href="">Schools</a>
-            <a href="">Services</a>
+            <a href="#">Home</a>
+            <a href="html/about.html">About Us</a>
+            <a href="html/admin.html">Schools</a>
+            <a href="html/services.html">Services</a>
 
         </div>
         <div class="button">
-            <a href="register.html" target="_blank"><button class="btn1">Register</button></a>
-            <button class="btn2">Login</button>
-        </div>
 
+            <a href="html/college-login.html" target="_blank">
+                <button class="btn2 ">Login</button>
+            </a>
+
+        </div>
     </div>
     <!-- NAVIGATION ENDS -->
 
 
     <!-- HEADER STARTS -->
 
-    <div class="container" class="col-6 col-6">
+    <div class="container">
         <div class="container1">
             <h1 class="font1">Become A Member</h1>
             <h6 class="font2">One of the greatest service you can offer
@@ -57,7 +58,14 @@
                 or alumni, this platform connects you to the
                 right people.
             </h6>
-            <button class="btn2">Register</button>
+            <a href="html/college-setup.html" target="_blank">
+                <button class="btn2">Organization</button> &nbsp; &nbsp;
+            </a>
+            <a href="html/alumni-signup.html" target="_blank">
+                <button class="btn1">Alumni</button>
+            </a>
+
+
 
         </div>
         <div class="img2">
@@ -68,8 +76,8 @@
 
 
     <!-- SCHOOLS CARD STARTS -->
-    <div class="card-school1" class="col-12"></div>>
-    <h2 class="name">Featured Universities</h2>
+    <div class="card-school1">
+        <h2 class="name">Feautured Universities</h2>
     </div>
     <section>
         <div class="slide-container swiper">
@@ -110,49 +118,68 @@
         <div class="featured1">
             <h3>The Right Platform For Alumni Donations</h3>
         </div>
-        <div class="cards" class="col-3 col-6">
-            <div class="carded card1">
-                <div class="container2">
+        <div class="cards">
+            <div class="featured-first">
+                <div class="carded card1">
+                    <div class="container2">
 
-                    <img src="img/icons/fundraising-png-icon-13.png" alt="" class="icon1">
+                        <img src="img/icons/fundraising-png-icon-13.png" alt="" class="icon1">
+                    </div>
+                    <div class="details">
+                        <h3 class="heading1">Fund Raising</h3>
+                        <p class="para1">Give back to your Alma mata with your donations as we contribute to the
+                            development of our school</p>
+                        <a href="html/fundraising.html">
+                            <button class="btn3">Learn More</button>
+                        </a>
+                    </div>
                 </div>
-                <div class="details">
-                    <h3 class="heading1">Fund Raising</h3>
-                    <p class="para1">Give back to your Alma mata with your donations </p>
-                    <button class="btn3">Learn More</button>
+                <div class="carded card2">
+                    <div class="container2">
+
+                        <img src="img/icons/sponsor2.png" alt="" class="icon1">
+                    </div>
+                    <div class="details">
+                        <h3 class="heading1">Job Opportunities</h3>
+                        <p class="para1">Connect fresh graduates from your Alma Mata to job openings in your
+                            organization </p>
+                        <a href="html/job-opportunities.html">
+                            <button class="btn3">Learn More</button>
+                        </a>
+                    </div>
                 </div>
             </div>
-            <div class="carded card2">
-                <div class="container2">
+            <div class="featured-second">
+                <div class="carded card3">
+                    <div class="container2">
 
-                    <img src="img/icons/sponsor2.png" alt="" class="icon1">
-                </div>
-                <div class="details">
-                    <h3 class="heading1">Fund Raising</h3>
-                    <p class="para1">Give back to your Alma mater with your donations </p>
-                    <button class="btn3">Learn More</button>
-                </div>
-            </div>
-            <div class="carded card3">
-                <div class="container2">
+                        <img src="img/icons/food.png" alt="" class="icon1">
+                    </div>
 
-                    <img src="img/icons/job.png" alt="" class="icon1">
-                </div>
-                <div class="details">
-                    <h3 class="heading1">Fund Raising</h3>
-                    <p class="para1">Give back to your Alma mater with your donations </p>
-                    <button class="btn3">Learn More</button>
-                </div>
-            </div>
-            <div class="carded card4">
-                <div class="container2">
+                    <div class="details">
+                        <h3 class="heading1">Sponsor A Child</h3>
+                        <p class="para1">Give back to the community by sponsoring a child's education and academic
+                            needs. </p>
+                        <a href="html/sponsorachild.html">
 
-                    <img src="img/icons/food.png" alt="" class="icon1">
+                            <button class="btn3">Learn More</button>
+                        </a>
+
+                    </div>
                 </div>
-                <div class="details">
-                    <h3 class="heading1">Fund Raising</h3>
-                    <p class="para1">Give back to your Alma mater with your donations </p>
-                    <button class="btn3">Learn More</button>
+                <div class="carded card4">
+                    <div class="container2">
+
+                        <img src="img/icons/job.png" alt="" class="icon1">
+                    </div>
+                    <div class="details">
+                        <h3 class="heading1">Feed The Students</h3>
+                        <p class="para1">Your contribution will go along way in feeding about 1000 students monthly.
+                        </p>
+                        <a href="html/feed.html">
+                            <button class="btn3">Learn More</button>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -166,10 +193,10 @@
             <h1 class="event-heading">Upcoming Events</h1>
         </div>
 
-        <div class="card-event" class="col-5">
+        <div class="card-event">
             <div class="card-left">
                 <div class="card-left-heading1 ">
-                    <div class="card-left-heading1-one" class="col-2">
+                    <div class="card-left-heading1-one">
                         <div>
                             <h3 class="date">24th April</h3>
                         </div>
@@ -182,9 +209,11 @@
                             This is a 4 hour event that would happen both virtually and physically.
                         </h4>
                     </div>
-                    <div class="card-footer" class="col-3">
+                    <div class="card-footer">
                         <div>
-                            <button class="btn3 card-footer-btn">Learn More</button>
+                            <a href="html/events.html">
+                                <button class="btn3 card-footer-btn">Learn More</button>
+                            </a>
                         </div>
                         <div>
                             <img src="img/icons/time.png" alt="" class="icon-time">
@@ -194,8 +223,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="card-left-heading1">
-                    <div class="card-left-heading1-one" class="col-2">
+                <div class="card-left-heading1 ">
+                    <div class="card-left-heading1-one">
                         <div>
                             <h3 class="date">29th April</h3>
                         </div>
@@ -211,7 +240,10 @@
                     </div>
                     <div class="card-footer">
                         <div>
-                            <button class="btn3 card-footer-btn">Learn More</button>
+                            <a href="html/events.html">
+
+                                <button class="btn3 card-footer-btn">Learn More</button>
+                            </a>
                         </div>
                         <div>
                             <img src="img/icons/time.png" alt="" class="icon-time">
@@ -291,12 +323,14 @@
     <!-- TESTIMONIALS ENDS -->
 
     <!-- CALL TO ACTION STARTS -->
-    <section class="section2" class="col-2">
+    <section class="section2">
         <div>
             <h2 class="action-text">READY TO CHANGE THE WORLD</h2>
         </div>
         <div>
-            <button class="btn4 action-btn">Get Started</button>
+            <a href="college-account-setup.html" target="_blank">
+                <button class="btn4 action-btn">Get Started</button>
+            </a>
         </div>
 
     </section>
@@ -326,16 +360,16 @@
                 <div>
 
                     <ul>
-                        <li class="footer-quick"><a href="#">About Us</a></li>
+                        <li class="footer-quick"><a href="html/about.html">About Us</a></li>
                     </ul>
                     <ul>
-                        <li class="footer-quick"><a href="#">Events</a></li>
+                        <li class="footer-quick"><a href="html/events.html">Events</a></li>
                     </ul>
                     <ul>
-                        <li class="footer-quick"><a href="#">News</a></li>
+                        <li class="footer-quick"><a href="html/news.html">News</a></li>
                     </ul>
                     <ul>
-                        <li class="footer-quick"><a href="#">Contact Us</a></li>
+                        <li class="footer-quick"><a href="html/contact.html">Contact Us</a></li>
                     </ul>
                 </div>
 
@@ -346,26 +380,26 @@
                 </div>
                 <div class="social">
                     <div>
-                        <img src="img/icons/fb.png" alt="" class="footer-img">
+                        <img src="img/icons/fb-main.png" alt="" class="footer-img">
                     </div>
                     <div>
-                        <img src="img/icons/ig.png" alt="" class="footer-img">
+                        <img src="img/icons/ig-main.png" alt="" class="footer-img">
                     </div>
                     <div>
-                        <img src="img/icons/twitter.png" alt="" class="footer-img">
+                        <img src="img/icons/twitter-main.png" alt="" class="footer-img">
                     </div>
                     <div>
-                        <img src="img/icons/linkedin.png" alt="" class="footer-img">
+                        <img src="img/icons/linkedin-main.png" alt="" class="footer-img">
                     </div>
                     <div>
-                        <img src="img/icons/whatsapp.png" alt="" class="footer-img">
+                        <img src="img/icons/whatsapp-main.png" alt="" class="footer-img">
                     </div>
                 </div>
 
             </div>
         </div>
         <div class="final-footer">
-
+            <h4> Copyright &copy; 2022 Team Dugong. All rights reserved.</h4>
         </div>
     </footer>
 
