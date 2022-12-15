@@ -4,16 +4,6 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Be Vietnam Pro', sans-serif;
-}
-
-
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500&display=swap');
-
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
     font-family: 'Be Vietnam Pro', 'sans-serif';
 }
 
@@ -46,15 +36,7 @@
     text-align: center
 }
 
-.sidebar .logo-details .logo_name {
-    color: #fff;
-    font-size: 24px;
-    font-weight: 500;
-}
 
-.sidebar .nav-links {
-    margin-top: 10px;
-}
 
 .sidebar .nav-links li {
     position: relative;
@@ -108,10 +90,7 @@
     transition: all 0.5s ease;
 }
 
-.sidebar.active~.home-section {
-    width: calc(100% - 60px);
-    left: 60px;
-}
+
 
 .home-section nav {
     display: flex;
@@ -129,22 +108,6 @@
     transition: all 0.5s ease;
 }
 
-.sidebar.active~.home-section nav {
-    left: 60px;
-    width: calc(100% - 60px);
-}
-
-.home-section nav .sidebar-button {
-    display: flex;
-    align-items: center;
-    font-size: 24px;
-    font-weight: 500;
-}
-
-nav .sidebar-button i {
-    font-size: 35px;
-    margin-right: 10px;
-}
 
 .home-section nav .search-box {
     position: relative;
@@ -182,18 +145,6 @@ nav .search-box .bx-search {
 }
 
 
-/* .home-section nav .profile-details{
-  display: flex;
-  align-items: center;
-  background: #F5F6FA;
-  border: 2px solid #EFEEF1;
-  border-radius: 6px;
-  height: 50px;
-  width: 50px;
-  padding: 0 15px 0 2px;
-} */
-
-
 nav .profile-details img {
     height: 30px;
     width: 30px;
@@ -203,22 +154,10 @@ nav .profile-details img {
 }
 
 
-nav .profile-details .admin_name {
-    font-size: 15px;
-    font-weight: 500;
-    color: #333;
-    margin: 0 10px;
-    white-space: nowrap;
-}
-
-nav .profile-details i {
-    font-size: 25px;
-    color: #333;
-}
-
 .home-section .home-content {
     position: relative;
     padding-top: 104px;
+    text-align: center;
 }
 
 .home-content .overview-boxes {
@@ -230,20 +169,9 @@ nav .profile-details i {
     margin-bottom: 26px;
 }
 
-.overview-boxes .box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: calc(100% / 4 - 15px);
-    background: #fff;
-    padding: 15px 14px;
-    border-radius: 12px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-
-}
+/*  */
 
 .overview-boxes .boxer {
-    /* display: flex; */
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -263,41 +191,14 @@ nav .profile-details i {
     margin: 30px;
 }
 
-.home-content .box .number {
-    display: inline-block;
-    font-size: 35px;
-    margin-top: -6px;
-    font-weight: 500;
-    /* text-align: center; */
-    /* justify-content: center; */
-}
 
-.home-content .box .indicator {
-    display: flex;
-    align-items: center;
-    /* justify-content: center; */
-
-}
-
-.home-content .box .indicator i {
-    height: 20px;
-    width: 20px;
-    background: #8FDACB;
-    line-height: 20px;
-    text-align: center;
-    border-radius: 50%;
-    color: #fff;
-    font-size: 20px;
-    margin-right: 5px;
-}
-
-.box .indicator i.down {
+/* .box .indicator i.down {
     background: #e87d88;
-}
+} */
 
-.home-content .box .indicator .text {
+/* .home-content .box .indicator .text {
     font-size: 12px;
-}
+} */
 
 .home-content .box .cart {
     display: inline-block;
@@ -312,130 +213,7 @@ nav .profile-details i {
     margin: -15px 0 0 6px;
 }
 
-.home-content .box .cart.two {
-    color: #2BD47D;
-    background: #C0F2D8;
-}
 
-.home-content .box .cart.three {
-    color: #ffc233;
-    background: #ffe8b3;
-}
-
-.home-content .box .cart.four {
-    color: #e05260;
-    background: #f7d4d7;
-}
-
-.home-content .total-order {
-    font-size: 20px;
-    font-weight: 500;
-}
-
-.home-content .sales-boxes {
-    display: flex;
-    justify-content: space-between;
-    /* padding: 0 20px; */
-}
-
-/* left box */
-.home-content .sales-boxes .recent-sales {
-    width: 65%;
-    background: #fff;
-    padding: 20px 30px;
-    margin: 0 20px;
-    border-radius: 12px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-}
-
-.home-content .sales-boxes .sales-details {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.sales-boxes .box .title {
-    font-size: 24px;
-    font-weight: 500;
-    /* margin-bottom: 10px; */
-}
-
-.sales-boxes .sales-details li.topic {
-    font-size: 20px;
-    font-weight: 500;
-}
-
-.sales-boxes .sales-details li {
-    list-style: none;
-    margin: 8px 0;
-}
-
-.sales-boxes .sales-details li a {
-    font-size: 18px;
-    color: #333;
-    font-size: 400;
-    text-decoration: none;
-}
-
-.sales-boxes .box .button {
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.sales-boxes .box .button a {
-    color: #fff;
-    background: #346E84;
-    padding: 4px 12px;
-    font-size: 15px;
-    font-weight: 400;
-    border-radius: 4px;
-    text-decoration: none;
-    transition: all 0.3s ease;
-}
-
-.sales-boxes .box .button a:hover {
-    background: #E3F2FC;
-}
-
-/* Right box */
-.home-content .sales-boxes .top-sales {
-    width: 35%;
-    background: #fff;
-    padding: 20px 30px;
-    margin: 0 20px 0 0;
-    border-radius: 12px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-}
-
-.sales-boxes .top-sales li {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 10px 0;
-}
-
-.sales-boxes .top-sales li a img {
-    height: 40px;
-    width: 40px;
-    object-fit: cover;
-    border-radius: 12px;
-    margin-right: 10px;
-    background: #333;
-}
-
-.sales-boxes .top-sales li a {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-}
-
-.sales-boxes .top-sales li .product,
-.price {
-    font-size: 17px;
-    font-weight: 400;
-    color: #333;
-}
 
 /* Responsive Media Query */
 @media (max-width: 1240px) {
@@ -563,108 +341,6 @@ nav .profile-details i {
 
 }
 
-.donut {
-    --donut-size: 270px;
-    --donut-border-width: 20px;
-    --donut-spacing: 0;
-    --donut-spacing-color: 255, 255, 255;
-    --donut-spacing-deg: calc(1deg * var(--donut-spacing));
-    border-radius: 50%;
-    height: var(--donut-size);
-    /* margin: 2px; */
-    position: relative;
-    width: var(--donut-size);
-}
-
-.donut__label {
-    left: 55%;
-    line-height: 1.5;
-    position: absolute;
-    text-align: center;
-    top: 55%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    width: 80%;
-}
-
-.donut__label__heading {
-    font-size: 24px;
-    font-weight: 600;
-}
-
-.donut__label__sub {
-    color: #666666;
-    font-size: 14px;
-    letter-spacing: 0.05em;
-}
-
-.donut__slice {
-    height: 100%;
-    position: absolute;
-    width: 100%;
-}
-
-.donut__slice::before,
-.donut__slice::after {
-    border: var(--donut-border-width) solid rgba(0, 0, 0, 0);
-    border-radius: 50%;
-    content: "";
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
-    width: 100%;
-}
-
-.donut__slice::before {
-    border-width: calc(var(--donut-border-width) + 1px);
-    box-shadow: 0 0 1px 0 rgba(var(--donut-spacing-color), calc(100 * var(--donut-spacing)));
-}
-
-.donut__slice__first {
-    --first-start: 0;
-}
-
-.donut__slice__first::before {
-    border-top-color: rgba(var(--donut-spacing-color),
-            calc(100 * var(--donut-spacing)));
-    -webkit-transform: rotate(calc(360deg * var(--first-start) + 45deg));
-    transform: rotate(calc(360deg * var(--first-start) + 45deg));
-}
-
-.donut__slice__first::after {
-    border-top-color: #1F424F;
-    border-right-color: #1F424F;
-    border-bottom-color: #1F424F;
-    border-left-color: #1F424F;
-    -webkit-transform: rotate(calc(360deg * var(--first-start) + 45deg + var(--donut-spacing-deg)));
-    transform: rotate(calc(360deg * var(--first-start) + 45deg + var(--donut-spacing-deg)));
-}
-
-.donut__slice__second {
-    --second-start: calc(var(--first));
-    --second-check: max(calc(var(--second-start) - 0.5), 0);
-    -webkit-clip-path: inset(0 calc(50% * (var(--second-check) / var(--second-check))) 0 0);
-    clip-path: inset(0 calc(50% * (var(--second-check) / var(--second-check))) 0 0);
-}
-
-.donut__slice__second::before {
-    border-top-color: rgba(var(--donut-spacing-color),
-            calc(100 * var(--donut-spacing)));
-    -webkit-transform: rotate(calc(360deg * var(--second-start) + 45deg));
-    transform: rotate(calc(360deg * var(--second-start) + 45deg));
-}
-
-.donut__slice__second::after {
-    border-top-color: #9EC1CE;
-    border-right-color: #9EC1CE;
-    border-bottom-color: #9EC1CE;
-    border-left-color: #9EC1CE;
-    -webkit-transform: rotate(calc(360deg * var(--second-start) + 45deg + var(--donut-spacing-deg)));
-    transform: rotate(calc(360deg * var(--second-start) + 45deg + var(--donut-spacing-deg)));
-}
 
 .right-side {
     width: 100%;
