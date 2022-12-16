@@ -374,6 +374,9 @@ nav .profile-details i{
   font-weight: 400;
   color: #333;
 }
+
+
+
 /* Responsive Media Query */
 @media (max-width: 1240px) {
   .sidebar{
@@ -444,14 +447,14 @@ nav .profile-details i{
 }
 @media (max-width: 400px) {
   .sidebar{
-    width: 0;
+    width: 30px;
   }
   .sidebar.active{
     width: 60px;
   }
   .home-section{
     width: 100%;
-    left: 0;
+    left: 30px;
   }
   .sidebar.active ~ .home-section{
     left: 60px;
